@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+.heading h2 span {
+    color: #00bbf0;
+}
+ .photo1 img{
+    width: 70px;
+    border: 5px solid #00204a;
+    border-radius: 50%;
+    padding: 15px;   
+} 
+.photo1 h3{
+    font-size: 20px;
+
+}
+.photo1 p{
+    font-size: 16px;
+}
+.sec{
+    margin: 0px 60px;
+    padding: 30px;
+
+}
+.photo1{
+    margin-bottom: 27px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    background-color: #00bbf0;
+    font-size: 20px;
+    padding: 10px 40px;
+    transition-duration: 0.3s;
+}
+.button a:hover{
+    filter: brightness(0.8);
+}
+/*  */
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 30px;
+   }
+   .itemList{
+   padding: 5px 20px;
+   color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+   border-radius: 5px;
+   }
+   .taskBar{
+       display: flex;
+       /* justify-content: right; */
+       margin-left: 450px;
+       margin-top: 10px;
+   }
+   .header{
+       display: flex;
+       justify-content: space-between;
+       background-color: #150a62;
+   }
+   .taskBar .itemList a{
+    color: white;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+.taskBar .itemList a:hover{
+    color: #00bbf0;
+}
+.color{
+    color: #00bbf0 !important;
+}
+/* footer */
+.footer{
+    background-color: #00204a;
+    color: white;
+    padding: 30px 0
+}
+.parts{
+    display: flex;
+}
+.part{
+    width: 25%;
+    padding: 0% 2%;
+}
+.icons{
+    width: 13px;
+    margin-right: 10px;
+}
+.part ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.part li h3{
+    font-size: 24PX;
+}
+.part ul li:last-child{
+    margin-top: 10px;
+}
+.part ul li:last-child img{
+    transition-duration: .5s;
+}
+.part ul li:last-child img:not(:nth-child(1)){
+    width: 20px;
+    margin-left: 10px;
+}
+.part li:not(:nth-child(1)):hover{
+    color: #00bbf0;
+}
+.part li a{
+    color: white;
+    text-decoration: none;
+}
+.part li a:hover{
+    color: #00bbf0;
+}
+.part li:last-child img:hover{
+    transform: rotate(360deg);
+}
+.part input{
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    border-bottom: .2px white solid;
+    padding: 8px 0px;
+}
+::placeholder{
+    color: white;
+}
+.part input:focus{
+    outline-style: none;
+}
+.part ul .sub{
+    background-color: #00bbf0;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px 55px;
+    margin-top: 18px;
+}
+.part ul .sub:hover{
+    color: white;
+    filter: brightness(0.8);
+}
+.button{
+    margin-bottom: 30px;
+}
